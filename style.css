@@ -3,7 +3,7 @@
 }
 
 body {
-    background: linear-gradient(0deg, #2171ff, cornflowerblue,whitesmoke);
+    background: linear-gradient(0deg,  rgb(42, 164, 68), rgb(166, 244, 182), whitesmoke, cornflowerblue, #3a7ff5);
     background-size: cover;
     min-height: 100vh;
 }
@@ -19,10 +19,6 @@ body {
 }
 
 .country{
-    min-width: 300px;
-    min-height: 300px;
-    background-color: white;
-    margin: 50px;
 
 
 }
@@ -34,17 +30,22 @@ body {
 
 
 .card {
-    height: 150px;
-    width: 15%;
+    min-width: 300px;
+    min-height: 300px;
+    margin: 50px;
+
 }
 
 .front, .back {
+    background-color: white;
     align-items: center;
     display: flex;
     font-size: 18px;
     height: 100%;
     justify-content: center;
     width: 100%;
+    border-radius: 20px;
+
 }
 
 img {
